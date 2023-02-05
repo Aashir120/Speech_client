@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+* {
+  box-sizing: border-box;
+}
+
+.LoginRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 80vh;
+  
+}
+
+.uploader-container:hover{
+  
+  border: 4px dashed black;
+  transition: 0.5s ease-in;
+}
+.heading{
+  font-weight: bold;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+.heading-span{
+  color: #6ea5b9;
+}
+.heading-p{
+  font-weight: 100;
+  font-size: 12px;
+}
+.icon-cloud{
+  color: black !important;
+}
